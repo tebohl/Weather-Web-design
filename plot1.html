@@ -67,22 +67,22 @@
 
 <main>
 
-  <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
 
     <!-- two columns  -->
     <div class="row mt-3">
 
-    <!----main column Weather Summary-->
+    <!----main column Latitude vs Temperature-->
       <div class="col-lg-9">
 
         <h2 class="fw-normal">Latitude vs Temperature</h2>
         <img src="./assets/images/latvstemp.png" class= "img-fluid">
         <p> The correlation between temperature and latitude is quite strong.
             Temperature increases as we get closer to the equator, which we could predict with our knowledge
-            of tropical regions and choosing travel destinations during the winter months.
-               </p>
+            of tropical regions and choosing travel destinations during the winter months.<br> It also appears that
+            this data set was taken during a warm spell in the southern hemisphere since those temperatures are higher.
+            </p>
       </div><!-- /.col-lg-8 Latitude vs Temperature-->
 
        <!----second column Visualizations-->
@@ -92,33 +92,31 @@
 
         <!-----two sub columns with images-->
         <div class = "row">
-            <div class = "col-lg-6">
-              <a href="./plot1.html">
-                <span class="border border-4 border-info">
-                <img src="./assets/images/latvstemp.png" class= "img-fluid"></span>
+            <div class = "col-sm-3 col-lg-6">
+              <a href="./plot1.html">              
+                <img src="./assets/images/latvstemp.png" style="padding:1px;border: solid rgb(113, 194, 226);" class= "img-fluid">
               </a> 
             </div>
 
-            <div class = "col-lg-6">
+            <div class = "col-sm-3 col-lg-6">
               <a href="./plot2.html">
                 <img src="./assets/images/latvswind.png" class= "img-fluid">
               </a>
             </div>
-        </div>
-
-         <div class = "row">
-            <div class = "col-lg-6">
+  
+            <div class = "col-sm-3 col-lg-6">
               <a href="./plot3.html">
                 <img src="./assets/images/latvshum.png" class= "img-fluid">
               </a>  
 
             </div>
-            <div class = "col-lg-6">
+            <div class = "col-sm-3 col-lg-6">
             <a href="./plot4.html">
                  <img src="./assets/images/latvscloud.png" class= "img-fluid">
               </a>
-            </div>
+          </div>
         </div>    
+
        
       </div><!-- /.col-lg-3 Visualizations-->
 
@@ -130,10 +128,9 @@
 
 
   <!-- FOOTER -->
-
   <footer class="footer mt-auto py-3 bg-light">
     <div class="container">
-      <span class="text-muted"></span>
+      <span class="text-muted">Data Retrieved from https://openweathermap.org/ </span>
     </div>
   </footer>
 
