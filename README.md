@@ -3,7 +3,7 @@ I created a website based on the observations and visualizations from my Python-
 
 The website can be accessed at https://tebohl.github.io/Weather-Web-design/
 
-Below are a couple of screenshots of the pages:
+Below are a couple of screenshots of the landing page and data page:
 
 ![screenshot1](img/landingpage.png)
 
